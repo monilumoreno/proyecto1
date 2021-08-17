@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>proyecto1-blog</title>
+  <link rel="STYLESHEET" href="./style.css" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+</head>
+
+<body>
+  <header>
+    <!--Codigo para boton menú-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Codigo para boton inicio-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+
+            <!--Codigo para boton Contactanos-->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contactanos</a>
+            </li>
+            <!--Codigo para boton a cerca de -->
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">A cerca de</a>
+            </li>
+          </ul>
+          <!--Codigo para boton Buscar -->
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!--Codigo para tarjeta phyton -->
+    <div class="container layaut-main imagenes-main">
+      <div class="row">
+        <div class="col-8">
+          <div class="row">
+            <div class="col-6">
+              <div class="card mb-3 cards-info">
+                <img src="./imagenes/phyton.png" width="200" height="200" class="card-img-top" alt="cinar_cinar" />
+                <div class="card-body">
+                  <h5 class="card-title">Phyton</h5>
+                  <p class="card-text">
+                    Lo que debes saber para manejar phyton y ser un gran programador.
+                  </p>
+                  <a href="https://www.youtube.com/watch?v=chPhlsHoEPo">Curso desde cero</a>
+                </div>
+              </div>
+            </div>
+
+            <!--Codigo para tarjeta css -->
+            <div class="col-6">
+              <div class="card mb-3 cards-info">
+                <img src="./imagenes/css.png" width="200" height="200" class="card-img-top" alt="cinar_cinar" />
+                <div class="card-body">
+                  <h5 class="card-title">CSS</h5>
+                  <p class="card-text">
+                    Css: Que es, tutoriales y como aprender del tema para ser un gran desarrollador
+                  </p>
+                  <a href="https://developer.mozilla.org/es/docs/Web/CSS">Para conocer mas click aqui</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--Codigo para tarjeta HTML -->
+          <div class="row">
+            <div class="col-6">
+              <div class="card mb-3 cards-info">
+                <img src="./imagenes/html.png" width="200" height="200" class="card-img-top" alt="cinar_cinar" />
+                <div class="card-body">
+                  <h5 class="card-title">HTML</h5>
+                  <p class="card-text">
+                    Paginas mas atractivas visualmente a traves del uso de este lenguaje etiquetado.
+                  </p>
+                  <a
+                    href="https://www.gruponw.com/noticias-de-colombia-y-el-mundo/nwarticle/28/TODAS/Que-es-HTML-DefinicindeHTML">Para
+                    conocer mas click aqui</a>
+                </div>
+              </div>
+            </div>
+
+            <!--Codigo para tarjeta JAVA -->
+            <div class="col-6">
+              <div class="card mb-3 cards-info">
+                <img src="./imagenes/java.jpg" width="200" height="200"
+                      class="card-img-top" alt="cinar_cinar" />
+                <div class="card-body">
+                  <h5 class="card-title">JAVA</h5>
+                  <p class="card-text">
+                    El poderoso lenguje que revoluciono el mundo de la programacion; como y porque
+                  </p>
+                  <a href="https://www.softzone.es/programas/lenguajes/cursos-gratis-youtube-programar-java/">Para
+                    conocer mas click aqui</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Codigo para formulario de registro -->
+        <div class="col-4">
+          <h4> Gama de espectaculares cursos para aprender y sumergirte en el mundo de la programación y el diseño de
+            paginas web.</h4><br>
+            <h5><p style="text-align:center">REGISTRATE</p></h5><br>
+          
+          <div class="mb-3">
+            <label for="TxtNombres" class="form-label">Nombres:</label>
+            <input type="text" class="form-control" id="TxtNombres" placeholder="Nombres">
+          </div>
+          <div class="mb-3">
+            <label for="TxtApellidos" class="form-label">Apellidos:</label>
+            <input type="text" class="form-control" id="TxtApellidos" placeholder="Apellidos">
+          </div>
+          <div class="mb-3">
+            <label for="TxtTelefono" class="form-label">Telefono:</label>
+            <input type="text" class="form-control" id="TxtTelefono" placeholder="Telefono">
+          </div>
+          <div class="mb-3">
+            <label for="TxtCorreoE" class="form-label">Correo Electronico:</label>
+            <input type="text" class="form-control" id="TxtCorreoE" placeholder="Correo Electronico">
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Registrarse</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+<!-- info del footer -->
+  <footer class="footer-main">
+    <div class="container">
+      <div class="row">
+        <h3>MONILUMORENO.ORG</h3>
+        <p><br>
+          tel: 3192130026<br><br>
+          email: monilumoreno@gmail.com<br><br>
+          14 de Agosto de 2021<br><br>
+          © 2005-2021 chrome and individual contributors. Content is available under these licenses.
+
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>
